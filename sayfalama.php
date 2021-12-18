@@ -251,7 +251,7 @@ $data = [
 ];
 
 $page = $_GET['page'] ?? 1;
-$sayfada = 10;
+$sayfada = 12;
 
 $count = count($data);
 $toplamSayfa = ceil($count / $sayfada);
